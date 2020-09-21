@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_rv_layout_for_image"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:layout_marginTop="5dp"
+        android:alpha=".8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_image_cam"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_camera_alt"
+            android:tint="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/iv_image_gallery"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_image"
+            android:tint="@color/colorPrimary"  />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cancle"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:alpha=".8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_weight="1"
+            android:src="@drawable/close"
+          />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimary"
+            android:src="@drawable/delete"
+              />
+
+    </LinearLayout>
+
+</LinearLayout>

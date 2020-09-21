@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#51085E</color>
+    <color name="colorPrimaryDark">#51085E</color>
+    <color name="colorAccent">#51085E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteLow">#F3F3F3</color>
+    <color name="button_color">#f8ce4b</color>
+    <color name="color_profileback">#F85762</color>
+    <color name="cartbottom_color">#384951</color>
+    <color name="link_color">#0097DB</color>
+    <color name="customBlue">#0EEA2B</color>
+    <color name="colortransparent">#00FFFFFF</color>
+    <color name="colorbtnactive">#FF8400</color>
+    <color name="bgcolor">#51085E</color>
+    <color name="yellow">#F3B703</color>
+    <color name="gold">#F8C42A</color>
+    <color name="green">#07C820</color>
+    <color name="parper">#4E587B</color>
+    <color name="greenDark">#3D7344</color>
+    <color name="black">#000</color>
+    <color name="blue_Project">#3F6AED</color>
+
+
+    <color name="waiting">#D75342</color>
+
+    <color name="text_color">#999999</color>
+    <color name="text_login">#837B7B</color>
+    <color name="text_view">#DAD7D7</color>
+
+
+    <color name="registration_color">#ececec</color>
+
+    <color name="loginButtton">#FD9200</color>
+</resources>

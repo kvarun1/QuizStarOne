@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/white_background"
+        android:paddingTop="15dp"
+        android:paddingBottom="0dp">
+
+        <LinearLayout
+            android:id="@+id/lene1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first_images"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dummy_profilex" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sourcesansprosemibold"
+                android:gravity="center"
+                android:text="Challenged"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_Challenged"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sourcesansprosemibold"
+                android:gravity="center"
+                android:text="$ 0.20"
+                android:textColor="@color/green"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/vs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/lene2"
+            android:layout_toRightOf="@+id/lene1"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="VS"
+            android:textColor="@color/text_color"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/vs"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+
+            android:layout_toLeftOf="@+id/lene2"
+            android:layout_toRightOf="@+id/lene1"
+            android:background="@drawable/rect_no_background"
+            android:fontFamily="@font/notosansui_bold"
+            android:gravity="center"
+            android:text="Play"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/lene2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_toLeftOf="@+id/waiting"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/second_profile"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dummy_profilex" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sourcesansprosemibold"
+                android:gravity="center"
+                android:text="Status"
+                android:textColor="@color/text_color"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tv_Challenged2_status"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/sourcesansprosemibold"
+                android:gravity="center"
+                android:text="$ 0.20"
+                android:textColor="@color/green"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewShow"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:layout_below="@+id/lene2"
+            android:layout_marginTop="10dp"
+            android:background="@color/text_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_below="@+id/viewShow"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:id="@+id/play"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/notosansui_bold"
+                android:gravity="center"
+                android:text="PLAY"
+                android:textColor="@color/loginButtton"
+                android:textSize="12dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ignore"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="1"
+                android:background="@color/color_profileback"
+                android:fontFamily="@font/notosansui_bold"
+                android:gravity="center"
+                android:text="IGNORE"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/waiting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/viewShow"
+            android:layout_alignParentEnd="true"
+            android:background="@color/color_profileback"
+            android:fontFamily="@font/notosansui_bold"
+            android:gravity="center"
+            android:text="Waiting"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</LinearLayout>

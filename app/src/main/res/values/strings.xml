@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">QuizStar</string>
+
+    //for login screen
+    <string name="login">Login</string>
+    <string name="ready_to_showcase_your_knowledge">Ready To Showcase Your Knowledge?</string>
+    <string name="email">Enter your email</string>
+    <string name="passwordO">Password</string>
+    <string name="sign_in">Log in</string>
+    <string name="password">Enter your password</string>
+    <string name="passwordC">Confirm password</string>
+    <string name="name">Enter Your Name</string>
+
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="are_you_new">Are you new?</string>
+    <string name="create_account">Create Account</string>
+    <string name="select_amount">Select Amount</string>
+    <string name="select_region">Select Region</string>
+    //for registration screen
+    <string name="create_a_new_account">Create a New Account!</string>
+    <string name="first_name">First Name</string>
+    <string name="withdraw">WITHDRAW</string>
+
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_knowledge_region">Select Knowledge Region</string>
+    <string name="iagree_to_your_terms_of_use_and_privacy_policy">I Agree to your Terms of use and Privacy Policy</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Quiz Star Challenge</string>
+    <string name="menu_gallery">DamnN Bank</string>
+    <string name="menu_slideshow">Invite A Friend</string>
+    <string name="challenge">CHALLENGE</string>
+
+    <string name="damn_bank">DAMN BANK</string>
+    <string name="INVITE_FRIEND">INVITE FRIEND</string>
+
+    <string name="win">Win</string>
+    <string name="rank">Rank</string>
+    <string name="Avg_Score">Avg. Score</string>
+
+</resources>
